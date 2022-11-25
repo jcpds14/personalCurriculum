@@ -1,0 +1,22 @@
+header .card-title {
+    font-family: "Neue Machina", sans-serif;
+}
+.card{
+    background-color:transparent !important;
+    color: white;
+
+}
+.card-body{
+padding: 10px!important;
+}
+.perfil::before{
+    background-image: url(/assests/img/icons/hacker.png);
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 0.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
