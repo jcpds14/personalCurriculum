@@ -4,7 +4,7 @@ header .card-title {
 .card{
     background-color:transparent !important;
     color: white;
-
+    border-color: transparent;
 }
 .card-body{
 padding: 10px!important;
