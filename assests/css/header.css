@@ -10,6 +10,7 @@ header .card-title {
 
     font-family: "Neue Machina", sans-serif;
 }
+
 .card-body img{
     width: 1.5rem;
     height: 1.5rem;
@@ -23,6 +24,13 @@ flex-direction: column;
 }
 .card-text{
     margin-bottom: 1rem;
+}
+
+@media (min-width: 768px){
+    .col-md-4 img{
+        width: 200px;
+        height: 213px;
+    }
 }
 /*
 .perfil::before{

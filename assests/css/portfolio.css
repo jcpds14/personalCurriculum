@@ -22,13 +22,11 @@
     content: '';
     display: inline-block;
     background-image: url(/assests/img/icons/github.svg);
-    width: 1.2rem;
-    height: 1.2rem;
+    min-width: 1rem;
+    min-height: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-right: .5rem;
-    background-color: white;
-    border-radius: 1rem;
+    margin-right: .5rem;    
 }
 
 .portfolio li a {
