@@ -1,0 +1,13 @@
+.experience{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+.period img{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: transparent;
+    
+}

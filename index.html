@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="./assests/css/accordion.css">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./assests/css/languages.css">
+    <link rel="stylesheet" href="./assests/css/portfolio.css">
+    <link rel="stylesheet" href="./assests/css/experience.css">
+    <link rel="stylesheet" href="./assests/css/skills.css">
 
     <!--FONTS LINKS-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -34,10 +37,21 @@
                     <div class="col-md-8">
                         <div class="card-body">
                             <h3 class="card-title">Olá, eu sou Jean Carlos</h3>
-                            <p class="card-text perfil">Junior Developer</p>
-                            <p class="card-text">Salvador-BA</p>
-                            <p class="card-text">(75) 9 8363-1439</p>
-                            <p class="card-text">jcpds14@gmail.com</p>
+                            <a href="https://linkedin.com/in/jean-carlos-51996b139/" target="_blank"
+                                class="card-text perfil">
+                                <img src="./assests/img/icons/linkedin-circundado.svg" alt="">
+                                Junior Developer
+                            </a>
+                            <p class="card-text">
+                                <img src="./assests/img/icons/location.png" alt="">
+                                Salvador-BA
+                            </p>
+                            <a href="tel:(75) 9 8363-1439" class="card-text">
+                                <img src="./assests/img/icons/whatsapp-icon.svg" alt="">
+                                (75) 9 8363-1439</a>
+                            <a href="mailto:jcpds14@gmail.com" class="card-text">
+                                <img src="./assests/img/icons/mail.png" alt="">
+                                jcpds14@gmail.com</a>
                         </div>
                     </div>
                 </div>
@@ -45,48 +59,136 @@
 
         </header>
         <main>
-
             <section class="accordion-section">
-                
-            <button type="button" class="trigger">
-                Idiomas
-            </button>
 
-            <div class="content">
-                <ul class="languages">
-                    <li>Português</li>
-                    <li>Inglês (Básico, Cursando)</li>
-                </ul>
-            </div>
+                <button type="button" class="trigger">
+                    Skills
+                </button>
 
-        </section>
-        <section class="accordion-section">
+                <div class="content">
+                    <div class="skillsContent">
 
-            <button type="button" class="trigger">
-                Portfólio
-            </button>
+                        <section class="tools">
+                            <h5>Ferramentas Conhecidas:</h5>
+                            <ul>
+                                <li>
+                                    <img src="./assests/img/icons/html.png" alt="HTML5" title="HTML5">
 
-            <div class="content">
-                <ul class="portfolio">
-                    <li>
-                        <span class="titlePortfolio">Teste</span>
-                        <a href="www.google.com">Link</a>
-                    </li>
-                    <li>
-                        <span class="titlePortfolio">Teste</span>
-                        <a href="www.google.com">Link</a>
-                    </li>
-                    <li>
-                        <span class="titlePortfolio">Teste</span>
-                        <a href="www.google.com">Link</a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-        </section>
-    </main>
-        
+                                </li>
+                                <li>
+                                    <img src="./assests/img/icons/css3.svg" alt="CSS3" title="CSS3">
+
+                                </li>
+                                <li>
+                                    <img src="./assests/img/icons/javascript.svg" alt="Javascript" title="Javascript">
+
+                                </li>
+                                <li>
+                                    <img src="./assests/img/icons/git.svg" alt="Git" title="Git">
+
+                                </li>
+                                <li>
+                                    <img src="./assests/img/icons/github-skill-logo.svg" alt="GitHub" title="GitHub">
+
+                                </li>
+                                <li>
+                                    <img src="./assests/img/icons/microsoft-dot-net-icon.png" alt="DotNet" title="DotNet">
+                                </li>
+                                <li>
+                                    <img src="./assests/img/icons/c-sharp.png" alt="C-Sharp" title="C-Sharp">
+
+                                </li>
+                                <li>
+                                    <img src="./assests/img/icons/microsoft-sql-server.svg" alt="SQL Server" title="SQL Server">
+
+                                </li>
+                                <li>
+                                    <img src="./assests/img/icons/bootstrap.svg" alt="Bootstrap" title="Bootstrap">
+
+                                </li>
+                                <li>
+                                    <img src="./assests/img/icons/angular-icon.svg" alt="Angular" title="Angular">
+                                </li>
+                            </ul>
+                        </section>
+                        <section class="personalSkills">
+                            <h5>Habilidades Pessoais</h5>
+                            <ul>
+                                <li>Liderança</li>
+                                <li>Facilidade de Comunicação</li>
+                                <li>Organização</li>
+                                <li>Trabalho em equipe</li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+
+            </section>
+            <section class="accordion-section">
+
+                <button type="button" class="trigger">
+                    Idiomas
+                </button>
+
+                <div class="content">
+                    <ul class="languages">
+                        <li>Português</li>
+                        <li>Inglês (Básico, Cursando)</li>
+                    </ul>
+                </div>
+
+            </section>
+            <section class="accordion-section">
+
+                <button type="button" class="trigger">
+                    Portfólio
+                </button>
+
+                <div class="content">
+                    <ul class="portfolio">
+                        <li>
+                            <span class="title github">Teste</span>
+                            <a href="www.google.com" target="_blank">Link</a>
+                        </li>
+                        <li>
+                            <span class="title">Teste</span>
+                            <a href="www.google.com" target="_blank">Link</a>
+                        </li>
+                        <li>
+                            <span class="title">Teste</span>
+                            <a href="www.google.com" target="_blank">Link</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </section>
+            <section class="accordion-section">
+
+                <button type="button" class="trigger">
+                    Experiência Profissional
+                </button>
+
+                <div class="content">
+                    <ul class="experience">
+                        <li>
+                            <p class="title">
+                                Teste
+                            </p>
+                            <p class="period">
+                                <img src="./assests/img/icons/calendar.png" alt="">
+                                2022
+                            </p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet tenetur ut animi ea
+                                voluptatum, asperiores dolorem expedita nobis ipsum perferendis eum quisquam est beatae
+                                autem a dicta rerum, excepturi iste?</p>
+                        </li>
+                    </ul>
+                </div>
+
+            </section>
+        </main>
+
     </div>
     </div>
     <script src="./assests/js/accordion.js"></script>

@@ -1,17 +1,18 @@
+@font-face {
+    font-family: 'Neue Machina';
+    src: url(../fonts/NeueMachina-Regular.otf);
+}
 * {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-body{
-    padding: 20px!important;
-    display: flex;
-    flex-direction: column;
-    align-items: center!important;
+body a {
+    color: white;
+    text-decoration: none;
 }
-
-@font-face {
-    font-family: 'Neue Machina';
-    src: url(../fonts/NeueMachina-Regular.otf);
+body a:hover{
+    text-decoration: underline;
+    color: white;
 }
 
 .bg {
@@ -41,4 +42,9 @@ body{
     100% {
         background-position: 0% 50%
     }
+}
+.title{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
 }

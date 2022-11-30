@@ -1,22 +1,38 @@
-header .card-title {
-    font-family: "Neue Machina", sans-serif;
+header{
+    margin-top: 20px;
 }
 .card{
     background-color:transparent !important;
     color: white;
     border-color: transparent;
 }
+header .card-title {
+
+    font-family: "Neue Machina", sans-serif;
+}
+.card-body img{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: transparent;
+    
+}
 .card-body{
 padding: 10px!important;
+display: flex;
+flex-direction: column;
 }
+.card-text{
+    margin-bottom: 1rem;
+}
+/*
 .perfil::before{
-    background-image: url(/assests/img/icons/hacker.png);
+    background-image: url(/assests/img/icons/linkedin-circundado.svg);
     content: "";
     display: inline-block;
-    width: 25px;
-    height: 25px;
+    width: 1.5rem;
+    height: 1.5rem;
     margin-right: 0.5rem;
     background-repeat: no-repeat;
     background-size: contain;
-    
 }
+*/
